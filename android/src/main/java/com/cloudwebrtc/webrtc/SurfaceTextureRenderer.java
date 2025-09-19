@@ -123,8 +123,8 @@ public class SurfaceTextureRenderer extends EglRenderer {
 
               @Override
               public void onSurfaceCleanup() {
-                surfaceDestroyed();
-              }
+            surfaceDestroyed(); // call the cleanup
+        }
             }
     );
   }
